@@ -1,19 +1,17 @@
-# refixit-v1
+# refixit-v2
 
-Code Review API + Web UI — powered by Groq (free).
+This is v2 — backend-powered, no API key for users. Big build. Let me do it right.
 
-What it does:
-Developers paste code or hit the API endpoint 
-→ get back instant AI review: bugs found, security issues, performance problems, and a fixed version.
-Something devs actually pay for because it saves real time.
+Full product. Two files — Flask backend + premium frontend
+No API key for users, code execution via Judge0 (free)
 
-What's inside:
--Bug Fixer — finds and fixes bugs, security holes, performance issues, and style problems. Shows a "What Changed" tab with every fix labeled by type (bug / security / perf / style)
--Code Analyzer — gives you time complexity, space complexity, quality score out of 100, readability, maintainability, issues list, and 2–4 alternate approaches with better Big O
+# What users get — no API key, no login:
+Code Review tab — score out of 100 with animated donut ring, time & space complexity with Big O bars, bugs/security/perf/best-practice tabs with severity levels and line references, 2-3 alternative approaches with better complexity, full fixed code with "Apply to Editor" button
 
-What's built:
--Web UI where devs paste code → get a score, bugs, security issues, performance notes, and a fixed rewrite
--API docs section (cURL, Python, JS examples) — shows developers how to call it programmatically
--Powered by Groq + Llama 3.3 70B — completely free, no credit card ever
--Supports 12 languages with auto-detect
--Animated score ring, copy-fixed-code button, scanline aesthetic
+Bug Fixer tab — scans code, lists every bug by severity (critical/high/medium/low) with suggestions to fix manually, plus auto-fixed version they can apply back to the editor in one click
+
+Convert tab — pick target language from pills below the editor, converts with idiomatic patterns, shows conversion notes and warnings, "Open in editor" button switches the language and loads the converted code so they can run it immediately
+
+Run Code tab — executes code via Judge0 (free), shows stdout, stderr, compile errors, execution time and memory usage
+
+
