@@ -1,4 +1,4 @@
-# refactix-v1
+# refixit-v1
 
 Code Review API + Web UI — powered by Groq (free).
 
